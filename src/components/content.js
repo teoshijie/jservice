@@ -7,7 +7,7 @@ export class Content extends Component {
     constructor(props) {
       super(props);
       this.state = {
-        baseURL: "http://jservice.io/api/random",
+        baseURL: "https://jservice.io/api/random",
         question: null,
         showanswer: false,
       }
